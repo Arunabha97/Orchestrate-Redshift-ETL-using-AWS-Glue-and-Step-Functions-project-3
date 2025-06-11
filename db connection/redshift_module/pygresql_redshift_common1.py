@@ -25,10 +25,10 @@ def connection_info(db):
 #creates a connection to the cluster
 def get_connection(db, db_creds):
     con_params = connection_info(db_creds)
-    print(con_params)
+    # print(con_params)
     rs_conn_string = "host=%s port=%s dbname=%s user=%s password=%s" % (
     con_params['host'], con_params['port'], db, con_params['username'], con_params['password'])
-    print(rs_conn_string)
+    # print(rs_conn_string)
     rs_conn = pg.connect(dbname=rs_conn_string)
     rs_conn.query("set statement_timeout = 1200000")
     return rs_conn
