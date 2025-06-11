@@ -1,0 +1,12 @@
+{
+	"fileLocations": [{
+		"URIs": [
+			"s3://mydemobucket1354/output/000"
+		]
+	}],
+	"globalUploadSettings": {
+		"format": "CSV",
+		"delimiter": ",",
+		"containsHeader": "true"
+	}
+}

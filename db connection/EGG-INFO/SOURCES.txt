@@ -1,0 +1,7 @@
+setup.py
+redshift_module/__init__.py
+redshift_module/pygresql_redshift_common.py
+redshift_module.egg-info/PKG-INFO
+redshift_module.egg-info/SOURCES.txt
+redshift_module.egg-info/dependency_links.txt
+redshift_module.egg-info/top_level.txt
